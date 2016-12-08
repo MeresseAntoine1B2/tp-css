@@ -6,7 +6,7 @@ nav
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: yellow;
+	background-color: white;
 	height: 75px;
 	line-height: 75px;
 	box-shadow: 0px 0px 5px #555;
@@ -26,8 +26,17 @@ header
 {
 	margin-top: 75px;
 	height: 350px;
-	background-color: #f23;
+	background-color: red;
 	color: white;
 }
 
 /** FIN HEADER **/
+
+/** SECTIONS **/
+
+h2
+{
+    color: white;
+    background-color: red;
+    padding: 10px 5px;
+}
