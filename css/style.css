@@ -28,6 +28,20 @@ header
 	height: 350px;
 	background-color: red;
 	color: white;
+	overflow: hidden;
+	position: relative;
+}
+
+header h1
+{
+    position: absolute;
+    bottom: 10%;
+    
+}
+
+.banner-video
+{
+ 
 }
 
 /** FIN HEADER **/
