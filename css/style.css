@@ -39,9 +39,9 @@ header h1
     
 }
 
-.banner-video
+.banner-video video
 {
- 
+ 	width: 100%;
 }
 
 /** FIN HEADER **/
@@ -53,4 +53,10 @@ h2
     color: white;
     background-color: red;
     padding: 10px 5px;
+}
+
+.voirPlus
+{
+	 height: 0px;
+	 overflow: hidden;
 }
