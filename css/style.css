@@ -48,6 +48,11 @@ header h1
 
 /** SECTIONS **/
 
+section
+{
+	font-weight: bold;
+}
+
 h2
 {
     color: white;
@@ -59,4 +64,21 @@ h2
 {
 	 height: 0px;
 	 overflow: hidden;
+}
+
+.enSavoirPlus
+{
+	 float: right;
+	 padding-bottom: 10px;
+}
+
+.plus
+{
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.enSavoirPlus:hover
+{
+	text-decoration: underline;
 }
