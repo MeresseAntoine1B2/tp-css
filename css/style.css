@@ -63,8 +63,11 @@ h2
 
 .voirPlus
 {
-	 height: 0px;
+	 max-height: 0;
 	 overflow: hidden;
+	 transition-property: max-height;
+	 transition-duration: 0.5s;
+	 transiion-timing-function: linear;
 }
 
 .enSavoirPlus
@@ -83,4 +86,9 @@ h2
 .enSavoirPlus:hover
 {
 	text-decoration: underline;
+}
+
+.attention
+{
+	color: red;
 }
