@@ -169,11 +169,11 @@ h2
 
 .voirPlus
 {
-	 max-height: 0;
+	 /**max-height: 0;
 	 overflow: hidden;
 	 transition-property: max-height;
 	 transition-duration: 0.5s;
-	 transiion-timing-function: linear;
+	 transiion-timing-function: linear;**/
 }
 
 .enSavoirPlus
