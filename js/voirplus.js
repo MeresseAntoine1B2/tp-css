@@ -16,6 +16,20 @@ $(document).ready(function() {
 			$(this).html('En savoir <span class="plus">+</span>');
 		}
 	});
+	
+	$(".menu-resp").click(function()
+	{
+		if($(".menu-resp").html() == "Menu")
+		{
+			$(".menu-resp").html("X");	
+			$("nav ul").css("display", "block");
+		}
+		else
+		{
+			$(".menu-resp").html("Menu");
+			$("nav ul").css("display", "none");
+		}
+	});
   
   
 });
