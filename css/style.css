@@ -165,6 +165,11 @@ header h1
 	display: flex;
 }
 
+.deux-col div, .deux-col p
+{
+	 align-self: center;
+}
+
 
 section
 {
@@ -175,7 +180,8 @@ section
 section img
 {
 	max-height: 250px;
-
+	margin: 15px;
+	width: auto;
 }
 
 h3
@@ -190,14 +196,6 @@ h2
     padding: 10px 5px;
 }
 
-.voirPlus
-{
-	 /**max-height: 0;
-	 overflow: hidden;
-	 transition-property: max-height;
-	 transition-duration: 0.5s;
-	 transiion-timing-function: linear;**/
-}
 
 .enSavoirPlus
 {
@@ -222,6 +220,37 @@ h2
 	color: red;
 }
 
+@media screen and (max-width: 640px) 
+{
+	section img
+{
+	max-height: 150px;
+	margin: 15px;
+	width: auto;
+}
+
+	section
+	{
+	text-align: left;	
+	}
+}
+
+@media screen and (max-width: 400px) 
+{
+	section img
+	{
+		max-height: 150px;
+		margin: 15px;
+		float: left;
+		width: auto;
+	}
+
+	.deux-col
+	{
+		display: block;	
+	}
+
+}
 /** Fin section **/
 
 /** FOOTER **/
